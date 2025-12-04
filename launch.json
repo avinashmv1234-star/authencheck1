@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Start Backend + Open Chrome",
+            "configurations": [ "Run Chrome"]
+        }
+    ],
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Run Chrome",
+            "url": "http://localhost:8000/docs",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
